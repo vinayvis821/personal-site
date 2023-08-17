@@ -1,0 +1,17 @@
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  background-color: #272729;
+  color: #f4c430;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    bottom: 0px;
+  }
+}

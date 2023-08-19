@@ -3,11 +3,17 @@ import Footer from "./components/footer";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import College from "./pages/College";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
+
+// USE REGULAR JAVASCRIPT
 
 function App() {
   const [page, setPage] = useState("about");
+
+  useEffect(() => {
+    testOnce();
+  }, []);
 
   return (
     <div className="app">
@@ -17,10 +23,27 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/college" element={<College />} />
       </Routes>
-      {/* {showContent(page)} */}
       <Footer />
     </div>
   );
+}
+
+async function testOnce() {
+  // await fetch("/api/test", {
+  //   method: "GET",
+  //   mode: "no-cors",
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //   },
+  // })
+  //   .then((res) => {
+  //     console.log(res);
+  //     return res.json();
+  //   })
+  //   .then((users) => {
+  //     console.log(users);
+  //   });
+  // console.log("here");
 }
 
 function showContent(page: string) {

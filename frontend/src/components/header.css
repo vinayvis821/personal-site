@@ -48,6 +48,19 @@
   margin-left: 20px;
 }
 
+.hamburger-pc {
+  position: relative;
+  padding-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .hamburger-pc {
+    display: none;
+  }
+}
+
 @media (min-width: 600px) {
   .container {
     display: flex;
@@ -61,5 +74,11 @@
 
   .logos-phone {
     display: none;
+  }
+
+  #hamburgers-pc {
+    position: absolute;
+    left: 10%;
+    top: 2vw;
   }
 }

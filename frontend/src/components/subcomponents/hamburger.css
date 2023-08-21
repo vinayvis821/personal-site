@@ -29,6 +29,74 @@
   width: 5vw;
 }
 
+.hamburger-line-pc {
+  background-color: #f4c430;
+  width: 3vw;
+  border-radius: 3px;
+  height: 0.5vw;
+  transition: 0.75s ease;
+}
+
 .hamburger-line-small {
   width: 3vw;
+}
+
+.hamburger-line-long-pc {
+  width: 3vw;
+}
+
+.hamburger-line-medium-pc {
+  width: 2vw;
+}
+
+.hamburger-line-small-pc {
+  width: 1vw;
+}
+
+.hamburger-line-long-pc-x {
+  position: absolute;
+  transform: rotate(45deg);
+  width: 3vw;
+  transform: 0.5s ease;
+}
+
+.hamburger-line-long-pc-x2 {
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 3vw;
+  margin-bottom: 100px;
+  transform: 0.5s ease;
+}
+
+.pc-x {
+  position: relative;
+  cursor: pointer;
+}
+
+.pc-x:hover div {
+  background-color: white;
+}
+
+.hamburger-menu-pc {
+  padding: 40px;
+  background-color: #1a1a1b;
+  z-index: 2;
+  position: absolute;
+  height: 50vh;
+  width: 10vw;
+  left: 0;
+  top: 0px;
+}
+
+.pc-text {
+  margin-top: 40px;
+}
+
+.pc-text p {
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.pc-text p:hover {
+  color: white;
 }

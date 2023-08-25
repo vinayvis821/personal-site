@@ -89,3 +89,10 @@
     margin-right: 0px;
   }
 }
+
+@media (max-width: 900px) {
+  .title,
+  .content > p {
+    width: 70% !important;
+  }
+}

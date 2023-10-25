@@ -3,13 +3,14 @@ import Footer from "./components/footer";
 import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import College from "./pages/College";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
+// import { useState } from "react";
 import "./App.css";
 
 // USE REGULAR JAVASCRIPT
 
 function App() {
-  const [page, setPage] = useState("about");
+  // const [page, setPage] = useState("about");
 
   useEffect(() => {
     testOnce();
@@ -46,14 +47,14 @@ async function testOnce() {
   // console.log("here");
 }
 
-function showContent(page: string) {
-  if (page == "about") {
-    return <About />;
-  } else if (page == "test") {
-    return <div>Test</div>;
-  } else {
-    return <div>Bruh</div>;
-  }
-}
+// function showContent(page: string) {
+//   if (page == "about") {
+//     return <About />;
+//   } else if (page == "test") {
+//     return <div>Test</div>;
+//   } else {
+//     return <div>Bruh</div>;
+//   }
+// }
 
 export default App;

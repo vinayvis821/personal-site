@@ -2,7 +2,7 @@ import "./header.css";
 import Logos from "./subcomponents/logos";
 import Hamburger from "./subcomponents/hamburger";
 import HamburgerPC from "./subcomponents/hamburger-pc";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Header() {
   return (

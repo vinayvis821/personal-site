@@ -1,7 +1,7 @@
 import "../header.css";
 import "./hamburger.css";
 
-function Hamburger(setPage) {
+function Hamburger() {
   return (
     <>
       <div

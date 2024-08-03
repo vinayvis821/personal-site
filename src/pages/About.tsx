@@ -1,7 +1,7 @@
 import "./pages.css";
 import GradPicture from "../assets/about-images/walk.jpg";
 import HikePicture from "../assets/about-images/hike.jpg";
-import BeachPicture from "../assets/about-images/beach.jpg";
+import SmilePicture from "../assets/about-images/smile.jpg";
 
 function About() {
   return (
@@ -24,9 +24,9 @@ function About() {
             summer break and start my job. Will be completed soon!
           </p>
           <div className="about-images">
-            <img id="sky" src={GradPicture} alt="skydiving picture" />
-            <img id="beach" src={BeachPicture} alt="beach picture" />
-            <img id="crane" src={HikePicture} alt="mountain pose picture" />
+            <img id="pic1" src={GradPicture} alt="Graduation picture" />
+            <img id="pic2" src={SmilePicture} alt="Smiling picture" />
+            <img id="pic3" src={HikePicture} alt="Hiking picture" />
           </div>
         </div>
       </div>

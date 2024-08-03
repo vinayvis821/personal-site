@@ -63,15 +63,18 @@
   margin-top: 20px;
 }
 
-#sky {
-  margin-right: 20px;
-}
-
 .about-images img {
   width: 250px;
+  height: 325px;
 }
 
-#beach {
+#pic1 {
+  object-fit: cover;
+  object-position: 0% 50%;
+}
+
+#pic1,
+#pic2 {
   margin-right: 20px;
 }
 
@@ -91,9 +94,9 @@
     margin-bottom: 50px;
   }
 
-  #sky,
-  #beach,
-  #crane {
+  #pic1,
+  #pic2,
+  #pic3 {
     margin-right: 0px;
   }
 }

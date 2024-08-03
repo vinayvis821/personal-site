@@ -15,13 +15,13 @@ function About() {
         </div>
         <div className="content">
           <p>
-            Hi! My name is Vinay. I am currently a senior studying computer
-            science at Washington University in St. Louis with a minor in Human
+            Hi! My name is Vinay. I recently graduated with a computer science
+            degree at Washington University in St. Louis with a minor in Human
             Computer Interaction 💻.
           </p>
           <p className="second-paragraph">
-            This website is still in incremental development as I work to finish
-            up my last semester and will be completed soon!
+            This website is still in incremental development as I finish up my
+            summer break and start my job. Will be completed soon!
           </p>
           <div className="about-images">
             <img id="sky" src={SkyPicture} alt="skydiving picture" />

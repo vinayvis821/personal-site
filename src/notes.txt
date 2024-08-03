@@ -3,6 +3,8 @@ CONTENT EDITABLE
 MAKE THE VALUE A STATE
 IF THE STATE CHANGES DISPLAY THE OPTIONS BELOW 
 
+Deployment: https://www.linkedin.com/pulse/deploying-react-vite-application-mangesh-ahire-p6auf/
+
 TODO: FIX ABOUT CONTENT 
 MAKE CONTENT FOR ALL THE PAGES 
 Fix routing 

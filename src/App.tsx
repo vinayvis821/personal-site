@@ -1,8 +1,8 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
-import { Routes, Route } from "react-router-dom";
+// import { Routes, Route } from "react-router-dom";
 import About from "./pages/About";
-import College from "./pages/College";
+// import College from "./pages/College";
 import { useEffect } from "react";
 // import { useState } from "react";
 import "./App.css";

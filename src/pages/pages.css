@@ -68,7 +68,9 @@
   height: 325px;
 }
 
-#pic1 {
+#pic1,
+#pic2,
+#pic3 {
   object-fit: cover;
   object-position: 0% 50%;
 }
@@ -97,6 +99,7 @@
   #pic1,
   #pic2,
   #pic3 {
+    width: 350px;
     margin-right: 0px;
   }
 }

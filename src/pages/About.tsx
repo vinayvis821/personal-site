@@ -21,8 +21,8 @@ function About() {
           </p>
           <p className="second-paragraph">
             Currently, I am an incoming New Grad SWE at Amazon AWS. Aside from
-            programming, I enjoy all things fitness, cooking, binging tv and
-            movies, hiking, videogames, and poker.
+            programming, I enjoy fitness, cooking, binging tv and movies,
+            hiking, videogames, and film/photography.
           </p>
           <p className="second-paragraph">
             The rest of this website is still in incremental development as I

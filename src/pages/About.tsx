@@ -20,8 +20,16 @@ function About() {
             Computer Interaction 💻.
           </p>
           <p className="second-paragraph">
-            This website is still in incremental development as I finish up my
-            summer break and start my job. Will be completed soon!
+            Currently, I am an incoming New Grad SWE at Amazon AWS. Aside from
+            programming, I enjoy all things fitness, cooking, binging tv and
+            movies, hiking, videogames, and poker.
+          </p>
+          <p className="second-paragraph">
+            The rest of this website is still in incremental development as I
+            finish up my summer break and start my job; will be completed soon!
+          </p>
+          <p className="second-paragraph">
+            Feel free to reach out to me at visvinay821 (at) gmail (dot) com
           </p>
           <div className="about-images">
             <img id="pic1" src={GradPicture} alt="Graduation picture" />

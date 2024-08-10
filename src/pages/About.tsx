@@ -15,7 +15,7 @@ function About() {
         </div>
         <div className="content">
           <p>
-            Hi! My name is Vinay. I recently graduated with a computer science
+            Hi, My name is Vinay! I recently graduated with a computer science
             degree at Washington University in St. Louis with a minor in Human
             Computer Interaction 💻.
           </p>

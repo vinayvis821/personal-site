@@ -1,5 +1,5 @@
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
   display: flex;
@@ -8,6 +8,7 @@
   height: 30px;
   background-color: #272729;
   color: #f4c430;
+  z-index: 10;
 }
 
 @media (max-width: 600px) {

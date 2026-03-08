@@ -8,6 +8,10 @@
   border: 1px solid transparent;
 }
 
+.page {
+  padding-top: 100px;
+}
+
 .title-parent {
   display: block;
 }

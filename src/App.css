@@ -4,6 +4,7 @@
   padding: 0;
   height: 100vh !important;
   background-color: #1a1a1b;
+  z-index: 1;
 }
 
 @media (max-width: 600px) {

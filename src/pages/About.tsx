@@ -1,32 +1,55 @@
 import "./pages.css";
+import React, { useEffect, useState } from "react";
 import GradPicture from "../assets/about-images/walk.jpg";
 import HikePicture from "../assets/about-images/hike.jpg";
 import SmilePicture from "../assets/about-images/smile.jpg";
 
+const displayVerticalBar = (): React.JSX.Element => {
+  return <div className="vertical-bar"></div>;
+};
+
 function About() {
+  const [barVisible, setBarVisible] = useState<boolean>(true);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setBarVisible((barVisible) => !barVisible);
+    }, 500);
+
+    return () => clearTimeout(timeout);
+  }, [barVisible]);
+
   return (
     <div className="page">
       <div className="about">
         <div className="title-parent">
           <div className="title">
-            <div className="vertical-bar"></div>
+            {barVisible && displayVerticalBar()}
             <h2 contentEditable="true">About Me</h2>
           </div>
         </div>
         <div className="content">
           <p>
-            Hi, My name is Vinay! I recently graduated with a computer science
-            degree at Washington University in St. Louis with a minor in Human
-            Computer Interaction 💻.
+            Hi, My name is Vinay! I graduated with a computer science degree at
+            Washington University in St. Louis with a minor in Human Computer
+            Interaction 💻 in 2024.
           </p>
           <p className="second-paragraph">
-            Currently, I am an incoming New Grad SWE at Amazon AWS. Aside from
-            programming, I enjoy fitness, cooking, binging tv and movies,
-            hiking, videogames, and film/photography.
+            Currently, I am an Software Engineer at Amazon Web Services (AWS)
+            working out of Seattle in the Networking domain.
           </p>
           <p className="second-paragraph">
-            The rest of this website is still in incremental development as I
-            finish up my summer break and start my job; will be completed soon!
+            Aside from programming, I enjoy all things fitness (weightlifting,
+            boxing, running), cooking, playing the guitar, binging tv and
+            movies, hiking, videogames, and film/photography.
+          </p>
+          <p className="second-paragraph">
+            I also love being outdoors and enjoy skiing, hiking, and
+            paddleboarding when the weather is nice.
+          </p>
+          <p className="second-paragraph">
+            In my spare time I'm studying to be a Certified Personal Trainer to
+            help everyone achieve their fitness goals
           </p>
           <p className="second-paragraph">
             Feel free to reach out to me at visvinay821 (at) gmail (dot) com

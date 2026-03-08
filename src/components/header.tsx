@@ -17,13 +17,12 @@ function Header() {
           </div>
         </div>
       </div>
-      <div className="logos-phone">
-        {/* <Hamburger /> */}
+      {/* <div className="logos-phone">
         <Logos />
-      </div>
-      <div className="hamburger-pc">
+      </div> */}
+      {/* <div className="hamburger-pc">
         <HamburgerPC />
-      </div>
+      </div> */}
       {/* <Link to="/College">College</Link> */}
     </div>
   );

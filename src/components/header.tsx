@@ -1,8 +1,5 @@
 import "./header.css";
 import Logos from "./subcomponents/logos";
-// import Hamburger from "./subcomponents/hamburger";
-import HamburgerPC from "./subcomponents/hamburger-pc";
-// import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -17,13 +14,6 @@ function Header() {
           </div>
         </div>
       </div>
-      {/* <div className="logos-phone">
-        <Logos />
-      </div> */}
-      {/* <div className="hamburger-pc">
-        <HamburgerPC />
-      </div> */}
-      {/* <Link to="/College">College</Link> */}
     </div>
   );
 }

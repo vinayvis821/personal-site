@@ -41,15 +41,19 @@ function About() {
           <p className="second-paragraph">
             Aside from programming, I enjoy all things fitness (weightlifting,
             boxing, running), cooking, playing the guitar, binging tv and
-            movies, hiking, videogames, and film/photography.
+            movies, and videogames
           </p>
           <p className="second-paragraph">
             I also love being outdoors and enjoy skiing, hiking, and
             paddleboarding when the weather is nice.
           </p>
           <p className="second-paragraph">
-            In my spare time I'm studying to be a Certified Personal Trainer to
+            In my free time I'm studying to be a Certified Personal Trainer to
             help everyone achieve their fitness goals
+          </p>
+          <p className="second-paragraph">
+            I'm also a professional photographer/videographer in my spare time.
+            Check out my work <a href="#">here</a> (under construction)
           </p>
           <p className="second-paragraph">
             Feel free to reach out to me at visvinay821 (at) gmail (dot) com

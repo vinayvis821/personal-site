@@ -35,8 +35,8 @@ function About() {
             Interaction 💻 in 2024.
           </p>
           <p className="second-paragraph">
-            Currently, I am an Software Engineer at Amazon Web Services (AWS)
-            working out of Seattle in the Networking domain.
+            Currently, I am a Software Engineer at Twitch
+            working out of Seattle on the Memberships team.
           </p>
           <p className="second-paragraph">
             Aside from programming, I enjoy all things fitness (weightlifting,
